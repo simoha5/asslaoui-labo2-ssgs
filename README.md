@@ -64,3 +64,19 @@ Dove:
 ## Licenza
 
 MIT
+
+##  Eseguire i Test
+Assicurarsi che Jest sia installato come dipendenza di sviluppo:
+```bash
+npm install --save-dev jest
+```
+Per lanciare i test automatici scritti con Jest,e la code coverage (obiettivo 100%), usa:
+```bash
+npm test
+```
+
+
+
+
+
+
