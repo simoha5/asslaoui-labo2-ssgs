@@ -1,30 +1,66 @@
 # Labo-String: CLI per Utilità su Stringhe
 
-Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
+Labo-String è una semplice interfaccia a riga di comando (CLI) realizzata con Node.js che offre diverse utilità per la manipolazione di stringhe.
 
-## Nota Importante per lo Studente - Setup Iniziale del Progetto
+## Funzionalità Principali
 
-Benvenuto/a a `labo-string`!
+* Inversione di una stringa
+* Verifica se una stringa è palindroma
+* Troncamento di una stringa a una lunghezza massima specificata
+* Conteggio delle occorrenze di ciascun carattere in una stringa
 
-Questo repository è un **template di partenza** per il tuo laboratorio valutato. Come avrai modo di leggere nelle istruzioni del laboratorio, una parte fondamentale del tuo lavoro iniziale (Esercizio 1) consisterà nell'analizzare attentamente la struttura e la configurazione corrente di questo progetto.
+## Esempi di Utilizzo
 
-**Potresti notare che alcuni aspetti della configurazione iniziale – inclusa questa stessa documentazione (`README.md`), il file `package.json` e la gestione dei file da ignorare (`.gitignore`) – sono stati volutamente lasciati incompleti o potrebbero non seguire tutte le best practice per un progetto Node.js.**
+```bash
+# 1. Inversione
+node index.js 1 "ciao"
+# Output: "oaic"
 
-Il tuo primo compito sarà proprio quello di identificare queste aree di miglioramento e apportare le necessarie correzioni e completamenti, come dettagliato nelle istruzioni del laboratorio, per portare il progetto a uno standard qualitativo superiore.
+# 2. Verifica palindromo
+node index.js 2 "anna"
+# Output: true
 
-Buona analisi e buon lavoro!
+# 3. Troncamento
+node index.js 3 "ciao mondo" 4
+# Output: "ciao"
 
-## Funzionalità Principali (Previste)
+# 4. Conteggio caratteri
+node index.js 4 "ciao"
+# Output: { c: 1, i: 1, a: 1, o: 1 }
+```
 
-* Inversione di una stringa.
-* Verifica se una stringa è palindroma.
-* Troncamento di una stringa a una lunghezza massima specificata.
-* Conteggio delle occorrenze di ciascun carattere in una stringa.
+## Requisiti
 
-## Installazione e Avvio
+- [Node.js](https://nodejs.org/) **versione 22** o superiore
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+## Installazione
 
----
+Clona il repository ed entra nella cartella del progetto:
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+```bash
+git clone https://github.com/simoha5/asslaoui-labo2-ssgs
+cd asslaoui-labo2-ssgs
+```
+
+Installa le dipendenze:
+
+```bash
+npm install
+```
+
+## Utilizzo
+
+Esegui il codice tramite:
+
+```bash
+node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
+```
+
+Dove:
+- `<numero_funzione>`: il numero della funzione da eseguire (1-4)
+- `<stringa_input>`: la stringa su cui operare
+- `[parametro_aggiuntivo]`: parametro opzionale richiesto solo per alcune funzioni (es. lunghezza massima per il troncamento)
+
+## Licenza
+
+MIT
