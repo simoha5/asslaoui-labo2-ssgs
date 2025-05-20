@@ -1,19 +1,9 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Ignore node_modules
+node_modules/
 
-# Environments
-.env
-.venv
-env/
-venv/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+.vscode/
 
-# Unit test / coverage reports
-.coverage
-.pytest_cache/
-htmlcov/
+
+# Test coverage
+coverage/

@@ -25,6 +25,26 @@ Buona analisi e buon lavoro!
 
 *(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
 
----
+##  Requisiti
+- [Node.js](https://nodejs.org/) **versione 22** o superiore
+
+##  Installazione
+Clona il repository ed entra nella cartella del progetto:
+```bash
+git clone https://github.com/simoha5/asslaoui-labo2-ssgs
+cd asslaoui-labo2-ssgs
+```
+
+Installa le dipendenze:
+```bash
+npm install --save-dev jest
+```
+
+## ▶ Utilizzo
+Esegui il codice tramite:
+```bash
+Utilizzo: node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
+```
+
 
 *Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
