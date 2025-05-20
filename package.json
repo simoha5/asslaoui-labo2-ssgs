@@ -1,13 +1,14 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.",
+  "description": "CLI Node.js con utilità per la manipolazione di stringhe.",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll=false --coverage"
   },
   "keywords": ["jest", "terminal", "string", "manipulation", "cli"],
   "author": "Mohammed Asslaoui",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simoha5/asslaoui-labo2-ssgs.git"
@@ -16,9 +17,8 @@
     "url": "https://github.com/simoha5/asslaoui-labo2-ssgs/issues"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=22.0.0"
   },
-  "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
   }
