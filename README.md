@@ -75,6 +75,21 @@ Per lanciare i test automatici scritti con Jest,e la code coverage (obiettivo 10
 npm test
 ```
 
+## 🔄 Continuous Integration
+
+Il progetto è configurato con GitHub Actions per eseguire automaticamente i test e verificare la code coverage ad ogni push e pull request verso i branch principali.
+
+La pipeline CI:
+- Esegue tutti i test automatici
+- Verifica che la code coverage sia al 100%
+- Genera e salva il report di coverage come artefatto scaricabile
+
+Puoi visualizzare i risultati della CI nella sezione "Actions" del repository GitHub.
+
+
+## 👨‍💻 Autore
+**simoha5** – Creatore e sviluppatore principale
+
 
 
 
